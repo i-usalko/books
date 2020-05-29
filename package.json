@@ -1,13 +1,13 @@
 {
-  "name": "VSNotebooks",
-  "displayName": "VSNotebooks",
-  "description": "Jupyter Notebooks inside of VS Code",
-  "version": "1.4.4",
+  "name": "books",
+  "displayName": "books",
+  "description": "Yet another face of jupiter-lab",
+  "version": "0.1.0",
   "license": "MIT",
-  "repository": "https://github.com/pavanagrawal123/VSNotebooks",
-  "publisher": "pavan",
+  "repository": "https://github.com/i-usalko/books",
+  "publisher": "usalko",
   "engines": {
-    "vscode": "^1.23.0"
+    "vscode": "^1.41.0"
   },
   "categories": [
     "Other"
@@ -16,8 +16,7 @@
     "python",
     "jupyter",
     "ipython",
-    "data science",
-    "r"
+    "data science"
   ],
   "icon": "logo.png",
   "activationEvents": [
@@ -65,28 +64,28 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "VSNotebooks configuration",
+      "title": "books configuration",
       "properties": {
-        "VSNotebooks.remoteKernel": {
+        "books.remoteKernel": {
           "type": "boolean",
           "default": false,
           "description": "Need to use a remote kernel?"
         },
-        "VSNotebooks.remoteKernelAddress": {
+        "books.remoteKernelAddress": {
           "type": "string",
           "default": null,
           "description": "remote kernel URL"
         },
-        "VSNotebooks.remoteKernelToken": {
+        "books.remoteKernelToken": {
           "type": "string",
           "default": null,
           "description": "remote kernel token"
         },
-	"VSNotebooks.remoteKernelHomeDir": {
-		"type": "string",
-		"default": null,
-		"description": "remote kernel home dir"
-	}
+        "books.remoteKernelHomeDir": {
+          "type": "string",
+          "default": null,
+          "description": "remote kernel home dir"
+        }
       }
     },
     "keybindings": [
