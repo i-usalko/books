@@ -1,0 +1,9 @@
+echo @off
+npm i
+cd src-common
+npm i
+cd ..
+cd src-frontend
+npm i
+cd ..
+npm run publish
